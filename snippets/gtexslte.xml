@@ -23,7 +23,7 @@
     <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
 
     <!-- Track our repos -->
-    <project path="android" name="jedld/android" remote="github" revision="cm-14.1"/>
+    <project path="android" name="lineage-gtexslte/android" remote="github" revision="cm-14.1"/>
     <project path="build" name="jedld/android_build" remote="github" revision="cm-14.1">
       <copyfile src="core/root.mk" dest="Makefile" />
     </project>
